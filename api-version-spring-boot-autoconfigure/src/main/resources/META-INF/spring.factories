@@ -1,0 +1,3 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+priv.ln.api.version.spring.boot.autoconfigure.ApiVersionHttpConfiguration
