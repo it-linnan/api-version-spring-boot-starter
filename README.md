@@ -8,7 +8,7 @@
 <dependency>
     <groupId>priv.ln</groupId>
     <artifactId>api-version-spring-boot-starter</artifactId>
-    <version>${project.version}</version>
+    <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -17,6 +17,7 @@
 ```java
 @ApiVersion("1")
 @Controller
+@RequestMapping("/xxx")
 public class XxxController{
 }
 ```
